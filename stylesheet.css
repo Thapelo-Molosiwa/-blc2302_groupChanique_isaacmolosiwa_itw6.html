@@ -3,18 +3,24 @@
     text-align: center;
     padding: 10px;
     border-style: solid;
-    width: 300px ;
+    height: 800px;
+
+    
 }
 body {
     background-color: white;
     margin-left: auto;
-    border-style: double;
+    
 }
 h2 {
-    color:#195e83 ;
+    color:black ;
+    background-color: #1e81b0;
 }
  #footer{
-    background-color:#1e81b0;
+     padding: 10px;
+     position: absolute;
+     right: 600px;
+     float: left;
  }
  #menu{
      background-color: black;
@@ -27,9 +33,19 @@ h2 {
  }
 #image{
     clip-path: circle(); 
-    position: relative;
-    left: 150px;
+    text-align: center;
 }
 #section{
     border-radius:  0px 0px 0px 0px;
+    position: absolute
+    right:300px;
+
 }
+#container{
+    display: flex;
+    justify-content: end;
+}
+#move{
+    position: relative;
+    left: 327px;
+    bottom: 300px;
